@@ -9,13 +9,16 @@ export default function textArea(props) {
     const handleUpCase=()=>{
         let newText=text.toUpperCase();
         setText(newText)
+        props.showalert('Converted to Upper Case','success')
     }
     const handleLoCase=()=>{
         let newText=text.toLowerCase();
         setText(newText)
+        props.showalert('Converted to Lower Case','success')
     }
     const handleClearCase=()=>{
         setText('')
+        props.showalert('Text Cleared','info')
     }
     const [text, setText] = useState('');
     return (
