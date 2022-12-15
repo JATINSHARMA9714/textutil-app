@@ -11,7 +11,7 @@ h1{
   justify-content: center;
 }
 #text{
-  width: 50vw;
+  width: 90vw;
   height: 20vh;
 }
 #color{
@@ -19,4 +19,8 @@ h1{
 }
 .color{
   background-color: black;
+}
+.hover{
+  position: absolute;
+  width: 100vw;
 }
